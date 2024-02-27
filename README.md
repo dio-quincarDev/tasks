@@ -1,44 +1,67 @@
 # tasks
 Arquitectura Hexagonal Introduccion
 
-## Repositorio de aprendizaje: Arquitectura Hexagonal con Java 17, SpringBoot y MySQL
 
-**Descripción:**
+# Aprendiendo Arquitectura Hexagonal con Java, Spring Boot y MySQL
 
-Este repositorio tiene como objetivo servir como guía de aprendizaje para la implementación de la **Arquitectura Hexagonal** utilizando **Java 17**, **Spring Boot** y **MySQL**. 
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-**Contenido:**
+## Descripción
 
-* **Módulos:**
-    * **Dominio:** Implementación de las reglas de negocio y entidades del sistema.
-    * **Aplicación:** Capa que conecta el dominio con la infraestructura.
-    * **Infraestructura:** Implementación de los adaptadores técnicos, como la conexión a la base de datos.
-    * **Interfaz:** Capa que expone los puntos de entrada y salida del sistema (API REST).
-* **Pruebas:**
-    * Pruebas unitarias para cada módulo.
-    * Pruebas de integración para verificar la interacción entre módulos.
-* **Documentación:**
-    * Guía de arquitectura del proyecto.
-    * Diagrama de flujo de la aplicación.
-    * Instrucciones de instalación y configuración.
+Este repositorio contiene ejemplos de código para aprender a implementar la arquitectura hexagonal en una aplicación Java con Spring Boot y MySQL.
 
-**Tecnologías:**
+La arquitectura hexagonal, también conocida como puertos y adaptadores, separa la lógica de negocio de nuestra aplicación de los detalles de infraestructura como la base de datos, el framework web, etc. 
 
-* **Java 17:** Lenguaje de programación.
-* **Spring Boot:** Framework para el desarrollo de aplicaciones web.
-* **MySQL:** Base de datos relacional.
-* **Arquitectura Hexagonal:** Patrón de arquitectura para desacoplar las reglas de negocio de la infraestructura.
-[![Java 17](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Java_logo.svg/1200px-Java_logo.svg.png)](https://www.oracle.com/java/)
+Esto nos permite desacoplar completamente el core de nuestra aplicación y hace que sea más fácil de probar y mantener a lo largo del tiempo.
 
-[![Spring Boot](https://spring.io/projects/spring-boot)](https://spring.io/projects/spring-boot)
+## Diagrama
 
-[![MySQL](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/MySQL_logo.svg/1200px-MySQL_logo.svg.png)](https://www.mysql.com/)
+![Diagrama Arquitectura Hexagonal](hexagonal-architecture.png)
+
+Como podemos ver en el diagrama, nuestro core contiene la lógica de negocio y los casos de uso de la aplicación. Este core se comunica con el exterior a través de puertos y adaptadores:
+
+- **Puertos**: Interfaces que definen cómo el exterior se comunica con el core.
+- **Adaptadores**: Implementaciones concretas de los puertos que se comunican con infraestructura externa como la base de datos. 
+
+De esta forma el core sólo depende de abstracciones y no está acoplado a nada externo.
+
+## Tecnologías
+
+- Java 17
+- Spring Boot
+- MySQL
+- JUnit
+- Maven
+
+## Contenido
+
+En este repositorio encontrarás:
+
+- Ejemplos de código para implementar capas hexagonales
+- Tests unitarios con JUnit
+- Configuración de Spring Boot y MySQL  
+
+## Como usar este repositorio
+
+1. Clona este repositorio
+2. Importa el proyecto Maven en tu IDE favorito
+3. Ejecuta los tests JUnit para ver ejemplos funcionando
+4. Lee el código fuente para entender la implementación
+5. Modifica y experimenta para aprender
+
+## Autor
+
+- Diogenes Quintero
+- [Mi canal de YouTube](https://www.youtube.com/watch?v=JD_ZL3Bnaog) 
+
+¡Espero que este repositorio te sea útil para aprender arquitectura hexagonal y mejores prácticas con Java y Spring Boot!
 
 **Canal de YouTube:**
 
 * **[https://www.youtube.com/user/canal](https://www.youtube.com/watch?v=JD_ZL3Bnaog)**
 
-* ![Diagrama UML](https://raw.githubusercontent.com/NombreDeUsuario/RepositorioHexagonal/master/docs/diagrama-uml.png)
 
 
 **Contribuciones:**
