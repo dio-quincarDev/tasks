@@ -53,10 +53,8 @@ En este repositorio encontrarás:
 
 ## Autor
 
-- Diogenes Quintero
-- [Mi canal de YouTube](https://www.youtube.com/watch?v=JD_ZL3Bnaog) 
-
-¡Espero que este repositorio te sea útil para aprender arquitectura hexagonal y mejores prácticas con Java y Spring Boot!
+- DIF
+- ¡Espero que este repositorio te sea útil para aprender arquitectura hexagonal y mejores prácticas con Java y Spring Boot!
 
 **Canal de YouTube:**
 
@@ -68,33 +66,6 @@ En este repositorio encontrarás:
 
 Se anima a la comunidad a contribuir al proyecto con mejoras, correcciones de errores y nuevos ejemplos.
 
-**Licencia:**
-
-Este proyecto está licenciado bajo la licencia **Apache 2.0**.
-
-**Cómo empezar:**
-
-1. Clonar el repositorio:
-
-```
-git clone https://github.com/NombreDeUsuario/RepositorioHexagonal.git
-```
-
-2. Importar el proyecto en tu IDE favorito.
-
-3. Configurar la base de datos MySQL.
-
-4. Ejecutar la aplicación:
-
-```
-mvn spring-boot:run
-```
-
-5. Acceder a la API REST:
-
-```
-http://localhost:8080/api
-```
 
 
 
