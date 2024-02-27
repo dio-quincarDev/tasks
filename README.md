@@ -28,10 +28,18 @@ Este repositorio tiene como objetivo servir como guía de aprendizaje para la im
 * **Spring Boot:** Framework para el desarrollo de aplicaciones web.
 * **MySQL:** Base de datos relacional.
 * **Arquitectura Hexagonal:** Patrón de arquitectura para desacoplar las reglas de negocio de la infraestructura.
+[![Java 17](https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Java_logo.svg/1200px-Java_logo.svg.png)](https://www.oracle.com/java/)
+
+[![Spring Boot](https://spring.io/projects/spring-boot)](https://spring.io/projects/spring-boot)
+
+[![MySQL](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/MySQL_logo.svg/1200px-MySQL_logo.svg.png)](https://www.mysql.com/)
 
 **Canal de YouTube:**
 
-* **[https://www.youtube.com/user/canal](https://www.youtube.com/user/canal)**
+* **[https://www.youtube.com/user/canal](https://www.youtube.com/watch?v=JD_ZL3Bnaog)**
+
+* ![Diagrama UML](https://raw.githubusercontent.com/NombreDeUsuario/RepositorioHexagonal/master/docs/diagrama-uml.png)
+
 
 **Contribuciones:**
 
